@@ -2,7 +2,7 @@ const Menu = () => {
   return (
     <section
       id="Menu"
-      className="bg-blue-300 h-screen flex justify-center items-center"
+      className="bg-white h-screen flex justify-center items-center text-3xl text-shadow"
     >
       This is my Menu section
     </section>

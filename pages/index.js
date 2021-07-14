@@ -16,10 +16,12 @@ export default function Home() {
       </Head>
       <Navbar />
       <Hero />
-      <Menu />
-      <About />
-      <Location />
-      <Footer />
+      <div className="max-w-5xl m-auto">
+        <Menu />
+        <About />
+        <Location />
+        <Footer />
+      </div>
     </div>
   );
 }
