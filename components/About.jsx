@@ -32,7 +32,7 @@ const About = () => {
       </div>
       <div className="flex mx-4">
         
-        <div className="text-2xl w-4/5 mx-12">
+        <div className="text-2xl w-4/5 mr-12">
           <p className="mb-12">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis
             harum necessitatibus nihil corrupti adipisci voluptates tenetur
