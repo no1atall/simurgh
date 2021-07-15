@@ -8,20 +8,24 @@ const Navbar = () => {
     <nav className="bg-white h-24 w-screen fixed flex">
       <div className="w-56 ml-8 flex items-end mb-2">
         <Link href="/">
-          <Image src={Logo} alt="Simurgh Restaurant" />
+          <Image
+            src={Logo}
+            alt="Simurgh Restaurant"
+            className="cursor-pointer"
+          />
         </Link>
       </div>
       <ul className="flex items-end text-3xl justify-between px-32 w-full ">
-        <li >
+        <li>
           <Link href="/order">Order Now</Link>
         </li>
-        <li >
+        <li>
           <Link href="#Menu">Menu</Link>
         </li>
-        <li >
+        <li>
           <Link href="#About">About Us</Link>
         </li>
-        <li >
+        <li>
           <Link href="#Location">Find Us</Link>
         </li>
       </ul>

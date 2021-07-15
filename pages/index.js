@@ -16,7 +16,7 @@ export default function Home() {
       </Head>
       <Navbar />
       <Hero />
-      <div className="max-w-5xl m-auto">
+      <div className="max-w-screen-xl m-auto">
         <Menu />
         <About />
         <Location />
