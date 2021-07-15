@@ -16,26 +16,27 @@ const Menu = () => {
     >
       <div className=" w-full h-96 mx-4">
         <div id="tab-header" className="flex justify-between mb-8">
+          
           <span className=" cursor-pointer" onClick={() => setActiveTab(1)}>
-            Starters
+            {activeTab === 1 ? <h5 className="underline">Starters</h5> : <h5>Starters</h5>}
           </span>
           <span className=" cursor-pointer" onClick={() => setActiveTab(2)}>
-            Soups
+            {activeTab === 2 ? <h5 className="underline">Soups</h5> : <h5>Soups</h5>}
           </span>
           <span className=" cursor-pointer" onClick={() => setActiveTab(3)}>
-            Salads
+          {activeTab === 3 ? <h5 className="underline">Salads</h5> : <h5>Salads</h5>}
           </span>
           <span className=" cursor-pointer" onClick={() => setActiveTab(4)}>
-            Sides
+          {activeTab === 4 ? <h5 className="underline">Sides</h5> : <h5>Sides</h5>}
           </span>
           <span className=" cursor-pointer" onClick={() => setActiveTab(5)}>
-            Wings
+          {activeTab === 5 ? <h5 className="underline">Wings</h5> : <h5>Wings</h5>}
           </span>
           <span className=" cursor-pointer" onClick={() => setActiveTab(6)}>
-            Kebabs
+          {activeTab === 6 ? <h5 className="underline">Wings</h5> : <h5>Wings</h5>}
           </span>
           <span className=" cursor-pointer" onClick={() => setActiveTab(7)}>
-            Drinks
+          {activeTab === 27? <h5 className="underline">Drinks</h5> : <h5>Drinks</h5>}
           </span>
         </div>
         <div id="tab-content">
