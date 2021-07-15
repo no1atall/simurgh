@@ -16,27 +16,54 @@ const Menu = () => {
     >
       <div className=" w-full h-96 mx-4">
         <div id="tab-header" className="flex justify-between mb-8">
-          
           <span className=" cursor-pointer" onClick={() => setActiveTab(1)}>
-            {activeTab === 1 ? <h5 className="underline">Starters</h5> : <h5>Starters</h5>}
+            {activeTab === 1 ? (
+              <h5 className="underline">Starters</h5>
+            ) : (
+              <h5>Starters</h5>
+            )}
           </span>
           <span className=" cursor-pointer" onClick={() => setActiveTab(2)}>
-            {activeTab === 2 ? <h5 className="underline">Soups</h5> : <h5>Soups</h5>}
+            {activeTab === 2 ? (
+              <h5 className="underline">Soups</h5>
+            ) : (
+              <h5>Soups</h5>
+            )}
           </span>
           <span className=" cursor-pointer" onClick={() => setActiveTab(3)}>
-          {activeTab === 3 ? <h5 className="underline">Salads</h5> : <h5>Salads</h5>}
+            {activeTab === 3 ? (
+              <h5 className="underline">Salads</h5>
+            ) : (
+              <h5>Salads</h5>
+            )}
           </span>
           <span className=" cursor-pointer" onClick={() => setActiveTab(4)}>
-          {activeTab === 4 ? <h5 className="underline">Sides</h5> : <h5>Sides</h5>}
+            {activeTab === 4 ? (
+              <h5 className="underline">Sides</h5>
+            ) : (
+              <h5>Sides</h5>
+            )}
           </span>
           <span className=" cursor-pointer" onClick={() => setActiveTab(5)}>
-          {activeTab === 5 ? <h5 className="underline">Wings</h5> : <h5>Wings</h5>}
+            {activeTab === 5 ? (
+              <h5 className="underline">Wings</h5>
+            ) : (
+              <h5>Wings</h5>
+            )}
           </span>
           <span className=" cursor-pointer" onClick={() => setActiveTab(6)}>
-          {activeTab === 6 ? <h5 className="underline">Wings</h5> : <h5>Wings</h5>}
+            {activeTab === 6 ? (
+              <h5 className="underline">Wings</h5>
+            ) : (
+              <h5>Wings</h5>
+            )}
           </span>
           <span className=" cursor-pointer" onClick={() => setActiveTab(7)}>
-          {activeTab === 27? <h5 className="underline">Drinks</h5> : <h5>Drinks</h5>}
+            {activeTab === 27 ? (
+              <h5 className="underline">Drinks</h5>
+            ) : (
+              <h5>Drinks</h5>
+            )}
           </span>
         </div>
         <div id="tab-content">

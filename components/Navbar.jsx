@@ -5,7 +5,7 @@ import Logo from "../images/Simurgh_Logo.png";
 
 const Navbar = () => {
   return (
-    <nav className="bg-white h-24 w-screen fixed flex">
+    <nav className="bg-white h-24 w-screen z-10 fixed flex">
       <div className="w-56 ml-8 flex items-end mb-2">
         <Link href="/">
           <Image
