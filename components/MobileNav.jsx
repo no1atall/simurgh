@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import Link from "next/link";
+import { MdClose } from "react-icons/md";
+import { FiMenu } from "react-icons/fi";
 
 const MobileNav = () => {
   const [navbarOpen, setNavbarOpen] = useState(false);
@@ -17,7 +19,7 @@ const MobileNav = () => {
         className="fixed top-6 left-4 text-3xl font-extrabold cursor-pointer z-20 text-gray-600 "
         onClick={handleToggle}
       >
-        {navbarOpen ? "Close" : "Open"}
+        {navbarOpen ? <MdClose /> : <FiMenu />}
       </button>
       <ul
         className={`text-4xl  ${
