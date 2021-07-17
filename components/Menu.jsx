@@ -7,8 +7,6 @@ import Salads from "./Salads";
 const Menu = () => {
   const [activeTab, setActiveTab] = useState(1);
 
-  const handleClick = {};
-
   return (
     <section
       id="Menu"

@@ -16,16 +16,16 @@ const Navbar = () => {
         </Link>
       </div>
       <ul className="flex items-end text-3xl justify-between px-32 w-full ">
-        <li>
+        <li className="hover:text-gray-500">
           <Link href="/order">Order Now</Link>
         </li>
-        <li>
+        <li className="hover:text-gray-500">
           <Link href="#Menu">Menu</Link>
         </li>
-        <li>
+        <li className="hover:text-gray-500">
           <Link href="#About">About Us</Link>
         </li>
-        <li>
+        <li className="hover:text-gray-500">
           <Link href="#Location">Find Us</Link>
         </li>
       </ul>

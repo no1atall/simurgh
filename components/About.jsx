@@ -1,6 +1,5 @@
 import Image from "next/image";
 
-import Picture from "../public/AboutPicture.jpg";
 
 const About = () => {
   return (
@@ -55,6 +54,7 @@ const About = () => {
             alt="Drink being poured at the bar"
           />
         </div>
+        
       </div>
       
     </section>
