@@ -1,7 +1,6 @@
 import Link from "next/link";
 
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-// import { faFacebookF  } from "@fortawesome/free-solid-svg-icons"
+
 
 const Footer = () => {
   return (
@@ -54,7 +53,7 @@ const Footer = () => {
         </div>
         <div className="mx-auto cursor-pointer">
           <Link href="#Location">
-            <i class="fab fa-facebook"></i>
+            <i className="fab fa-facebook"></i>
           </Link>
         </div>
       </div>

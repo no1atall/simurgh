@@ -1,12 +1,8 @@
-import 'tailwindcss/tailwind.css'
-import '../styles/global.css'
-
-import "@fortawesome/fontawesome-svg-core/styles.css"; // import Font Awesome CSS
-import { config } from "@fortawesome/fontawesome-svg-core";
-config.autoAddCss = false;
+import "tailwindcss/tailwind.css";
+import "../styles/global.css";
 
 function MyApp({ Component, pageProps }) {
-  return <Component {...pageProps} />
+  return <Component {...pageProps} />;
 }
 
-export default MyApp
+export default MyApp;

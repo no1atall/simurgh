@@ -10,10 +10,10 @@ const Menu = () => {
   return (
     <section
       id="Menu"
-      className=" h-screen flex justify-center pt-56 text-3xl text-shadow"
+      className=" h-screen flex justify-center pt-20 lg:pt-56 "
     >
       <div className=" w-full h-96 mx-4">
-        <div id="tab-header" className="flex justify-between mb-8">
+        <div id="tab-header" className="flex justify-between mb-8 text-md sm:text-2xl md:text-3xl text-shadow-md">
           <span className=" cursor-pointer" onClick={() => setActiveTab(1)}>
             {activeTab === 1 ? (
               <h5 className="underline">Starters</h5>
@@ -64,7 +64,7 @@ const Menu = () => {
             )}
           </span>
         </div>
-        <div id="tab-content">
+        <div id="tab-content" className="text-xl sm:text-2xl md:text-3xl">
           {activeTab === 1 ? <Starters /> : null}
           {activeTab === 2 ? <Soups /> : null}
           {activeTab === 3 ? <Salads /> : null}

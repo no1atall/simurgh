@@ -30,10 +30,10 @@ const Starters = () => {
     <div>
       {starters.map((starter) => (
         <div id="content">
-          <h3 className="">{starter.name}</h3>
-          <p className="italic text-xl mb-4 flex justify-between">
+          <h3>{starter.name}</h3>
+          <p className="italic text-sm md:text-xl mb-4 flex justify-between">
             {starter.description}
-            <span className="text-xl">${starter.price}</span>
+            <span >${starter.price}</span>
           </p>
         </div>
       ))}
