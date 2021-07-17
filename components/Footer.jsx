@@ -48,7 +48,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="flex flex-row w-full text-xl ">
+      <div className="flex flex-row w-full text-xl px-4">
         <div className="w-1/2 ">
           <p>Copywrite ©2021 Created by Ian Vicherek</p>
         </div>
