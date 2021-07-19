@@ -18,8 +18,8 @@ export default function Home() {
       <Hero />
       <div className="max-w-screen-xl m-auto">
         <Menu />
-        {/* <About />
-        <Footer /> */}
+        <About />
+        {/* <Footer /> */}
       </div>
     </div>
   );

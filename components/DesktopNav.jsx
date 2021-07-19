@@ -15,7 +15,7 @@ const DesktopNav = () => {
           />
         </Link>
       </div>
-      <ul className="flex items-end text-3xl justify-between px-32 w-full ">
+      <ul className="flex items-end text-2xl lg:text-3xl justify-between px-12 lg:px-32 w-full ">
         <li className="hover:text-gray-500">
           <Link href="/order">Order Now</Link>
         </li>

@@ -3,12 +3,14 @@ const Soups = () => {
     {
       name: "Soup Of The Day",
       price: "5.99",
+      id: 1,
       description:
         "Traditional Persian soup made in house from fresh ingredients",
     },
     {
       name: "Bean Soup",
       price: "3.99",
+      id: 2,
       description: "Our staple comforting bean soup",
     },
   ];
@@ -16,11 +18,15 @@ const Soups = () => {
   return (
     <div>
       {soups.map((soup) => (
-        <div id="content">
+        <div
+          key={soup.id}
+          id="content"
+          className="my-8 md:my-12 lg:my-20 xl:my-0"
+        >
           <h3 className="">{soup.name}</h3>
-          <p className="italic text-xl mb-4 flex justify-between">
+          <p className="italic text-sm md:text-xl flex justify-between">
             {soup.description}
-            <span className="text-xl">${soup.price}</span>
+            <span>${soup.price}</span>
           </p>
         </div>
       ))}
