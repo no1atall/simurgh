@@ -19,7 +19,7 @@ export default function Home() {
       <div className="max-w-screen-xl m-auto">
         <Menu />
         <About />
-        {/* <Footer /> */}
+        <Footer />
       </div>
     </div>
   );
