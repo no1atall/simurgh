@@ -12,12 +12,12 @@ const Menu = () => {
   return (
     <section
       id="Menu"
-      className="h-screen flex justify-center pt-20 md:pt-40 lg:pt-56 "
+      className="min-h-screen flex justify-center pt-16 pb-4 md:pt-40 lg:pt-56 "
     >
       <div className=" w-full mx-4">
         <div
           id="tab-header"
-          className="flex justify-between mb-8 text-md sm:text-2xl md:text-3xl text-shadow-md"
+          className="flex justify-between sm:mb-8 text-md sm:text-2xl md:text-3xl text-shadow-md"
         >
           <span className=" cursor-pointer" onClick={() => setActiveTab(1)}>
             {activeTab === 1 ? (

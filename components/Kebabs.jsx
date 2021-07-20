@@ -44,13 +44,13 @@ const Kebabs = () => {
       description: "One skewer of chicken leg and one skewer of Koobideh",
     },
     {
-      name: "Kebab",
+      name: "Kebab Salari",
       price: "21.99",
       id: 8,
       description: "One skewer of chicken breast and one skewer of Koobideh",
     },
     {
-      name: "Kebab",
+      name: "Kebab Bakhtiari",
       price: "29.99",
       id: 9,
       description: "One skewer of chicken breast and one skewer of Barg",
@@ -63,9 +63,9 @@ const Kebabs = () => {
         <div
           key={kebab.id}
           id="content"
-          className="my-8 md:my-12 lg:my-20 xl:my-0"
+          className=" my-1 md:my-12 lg:my-20 xl:my-0"
         >
-          <h3>{kebab.name}</h3>
+          <h3 className="text-sm sm:text-2xl md:text-3xl font-bold sm:font-normal">{kebab.name}</h3>
           <p className="italic text-sm md:text-xl flex justify-between">
             {kebab.description}
             <span>${kebab.price}</span>

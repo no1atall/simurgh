@@ -36,7 +36,7 @@ const Starters = () => {
         <div
           key={starter.id}
           id="content"
-          className="my-8 md:my-12 lg:my-20 xl:my-0"
+          className="my-6 md:my-12 lg:my-20 xl:my-0"
         >
           <h3>{starter.name}</h3>
           <p className="italic text-sm md:text-xl flex justify-between">
