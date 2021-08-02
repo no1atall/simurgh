@@ -15,15 +15,12 @@ const DesktopNav = () => {
           />
         </Link>
       </div>
-      <ul className="flex items-end text-2xl lg:text-3xl justify-between px-12 lg:px-32 w-full ">
+      <ul className="flex items-end text-2xl lg:text-3xl font-semibold justify-between px-12 xl:px-56 w-full uppercase ">
         <li className="hover:text-gray-500">
-          <Link href="/order">Order Now</Link>
+          <Link href="tel:12892346622">Call Us</Link>
         </li>
         <li className="hover:text-gray-500">
           <Link href="#Menu">Menu</Link>
-        </li>
-        <li className="hover:text-gray-500">
-          <Link href="#About">About Us</Link>
         </li>
         <li className="hover:text-gray-500">
           <Link href="#Location">Find Us</Link>

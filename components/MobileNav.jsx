@@ -32,13 +32,10 @@ const MobileNav = () => {
           <Link href="/">Home</Link>
         </li>
         <li onClick={closeMenu} className=" pl-4 pb-4">
-          <Link href="/order">Order Now</Link>
+          <Link href="tel:12892346622">Call Us</Link>
         </li>
         <li onClick={closeMenu} className=" pl-4 pb-4">
           <Link href="#Menu">Menu</Link>
-        </li>
-        <li onClick={closeMenu} className=" pl-4 pb-4">
-          <Link href="#About">About Us</Link>
         </li>
         <li onClick={closeMenu} className=" pl-4 pb-4">
           <Link href="#Location">Find Us</Link>

@@ -1,33 +1,42 @@
 const Starters = () => {
   const starters = [
-    { name: "Mast Sade", price: "3.99", id: 1, description: "Plain yogurt" },
     {
       name: "Mast Khiar",
       price: "4.99",
-      id: 2,
+      id: 1,
       description: "Diced cucumber with fresh home style yogurt",
     },
     {
       name: "Mast Moosir",
       price: "4.99",
-      id: 3,
+      id: 2,
       description: "Home style yogurt sprinkled with shallots",
     },
     {
       name: "Kashkeh Bademjan",
       price: "9.99",
-      id: 4,
+      id: 3,
       description:
         "Mashed and fried eggplant topped with fried onions, mint, and garlic",
     },
     {
       name: "Khaviar Bademjan",
       price: "8.99",
-      id: 5,
+      id: 4,
       description: "Mashed and fried BBQ eggplant and tomato",
     },
-    { name: "Salad Olveih", price: "8.99", id: 6, description: "Potato salad" },
-    { name: "Jigar", price: "9.99", id: 7, description: "BBQ beef liver" },
+    {
+      name: "Zeytoon Parvarde",
+      price: "7.99",
+      id: 5,
+      description: "Marinated green olives in pomegranate and walnut paste",
+    },
+    {
+      name: "Jigar",
+      price: "9.99",
+      id: 6,
+      description: "BBQ beef liver (Available on weekends only)",
+    },
   ];
 
   return (
@@ -41,7 +50,7 @@ const Starters = () => {
           <h3>{starter.name}</h3>
           <p className="italic text-sm md:text-xl flex justify-between">
             {starter.description}
-            <span>${starter.price}</span>
+            <span className="min-w-1/4 text-right">${starter.price}</span>
           </p>
         </div>
       ))}

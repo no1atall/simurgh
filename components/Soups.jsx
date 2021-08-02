@@ -9,7 +9,7 @@ const Soups = () => {
     },
     {
       name: "Bean Soup",
-      price: "3.99",
+      price: "4.99",
       id: 2,
       description: "Our staple comforting bean soup",
     },
@@ -26,7 +26,7 @@ const Soups = () => {
           <h3 className="">{soup.name}</h3>
           <p className="italic text-sm md:text-xl flex justify-between">
             {soup.description}
-            <span>${soup.price}</span>
+            <span className="min-w-1/4 text-right">${soup.price}</span>
           </p>
         </div>
       ))}

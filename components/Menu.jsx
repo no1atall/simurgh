@@ -5,6 +5,8 @@ import Soups from "./Soups";
 import Salads from "./Salads";
 import Sides from "./Sides";
 import Kebabs from "./Kebabs";
+import Wings from "./Wings";
+import Drinks from "./Drinks";
 
 const Menu = () => {
   const [activeTab, setActiveTab] = useState(1);
@@ -74,25 +76,9 @@ const Menu = () => {
           {activeTab === 2 ? <Soups /> : null}
           {activeTab === 3 ? <Salads /> : null}
           {activeTab === 4 ? <Sides /> : null}
-
-          {activeTab === 5 ? (
-            <div id="content">
-              <h3>
-                8 Wings<span className="text-xl">$10.99</span>
-              </h3>
-              <h3>
-                8 Wing combo with beer<span className="text-xl">$14.99</span>
-              </h3>
-              <h3>
-                10 Wings<span className="text-xl">$12.99</span>
-              </h3>
-              <h3>
-                12 Wings<span className="text-xl">$14.88</span>
-              </h3>
-            </div>
-          ) : null}
+          {activeTab === 5 ? <Wings /> : null}
           {activeTab === 6 ? <Kebabs /> : null}
-          {activeTab === 7 ? <div id="content"> Drinks list</div> : null}
+          {activeTab === 7 ? <Drinks /> : null}
         </div>
       </div>
     </section>
