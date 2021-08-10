@@ -59,8 +59,10 @@ const Footer = () => {
           <p>Copyright ©2021 Created by Ian Vicherek</p>
         </div>
         <div className="mx-auto cursor-pointer">
-          <Link href="#Location">
-            <i className="fab fa-facebook"></i>
+          <Link href="https://www.facebook.com/Simurgh-restaurant-122786131928666/">
+            <a target="_blank">
+              <i className="fab fa-facebook"></i>
+            </a>
           </Link>
         </div>
       </div>
