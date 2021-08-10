@@ -1,29 +1,56 @@
-# Next.js + Tailwind CSS Example
+# Next.js + Tailwind CSS Restaurant Website
 
-This example shows how to use [Tailwind CSS](https://tailwindcss.com/) [(v2.2)](https://blog.tailwindcss.com/tailwindcss-2-2) with Next.js. It follows the steps outlined in the official [Tailwind docs](https://tailwindcss.com/docs/guides/nextjs).
+A website I've created for a local Persian restaurant, constructed with create-next-app - featuring NextJS, tailwindCSS and Hooks to build out this responsive single page website. 
 
-It uses the new [`Just-in-Time Mode`](https://tailwindcss.com/docs/just-in-time-mode) for Tailwind CSS.
+## Lessons Learned
 
-## Preview
+This project really allowed me to do a deeper dive into how NextJS works as a development framework. By spending lots of time researching through the docs, I learned how NextJS handles images and how the routing via the ```<Link>``` tag works. 
 
-Preview the example live on [StackBlitz](http://stackblitz.com/):
+This was also the first time I used @tailwding/jit mode in one of my builds, which helped me push my understanding of the styling framework.
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/vercel/next.js/tree/canary/examples/with-tailwindcss)
+One particular request from the restaurant owner was that there would be "Call Us" buttons embedded into the website. I had to learn how to implement these using the ```<Link>``` tag and and href.
 
-## Deploy your own
+Finally, within my responsive design, I wanted to display different navbars based on the screen size of the user. I wanted to do this via conditional rendering. My first attempt at this was using React Hooks, as detailed in this [StackOverflow post.](https://stackoverflow.com/questions/46586165/react-conditionally-render-based-on-viewport-size) Unfortunatly, I found that NextJS has a problem accessing ```window.innerWidth```, and throws and error when trying to access this property. I was forced to look for another solution to my conditional, an finally found one which I implemented [like so.](https://github.com/no1atall/simurgh/blob/main/components/Navbar.jsx) 
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example):
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-tailwindcss&project-name=with-tailwindcss&repository-name=with-tailwindcss)
+## Potential Future Features
 
-## How to use
+* DoorDash and Uber Eats integration to facilitate online ordering, order flow, and boost sales
+* A custom order page through which customers could place orders directly on the website, pay for their food, and recieve an email confirmation of their order with a pickup time. This would also be to boost sales and generate more revenue.
+* Integaration of Google Maps API to make locating the restaurant easier
+* Integration of Google Analytics to guide site optimiztaion, SEO optimization, and track performance of the website.
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init) or [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/) to bootstrap the example:
+## Deployment
+This website is hosted on [Netlify](https://www.netlify.com/).
+The domain name is provided by [namecheap](https://www.namecheap.com/) and the SSL Certificate is provided by Let’s Encrypt through [Netlify](https://www.netlify.com/)
+
+## Live Website
+The live website can be viewed [here](https://simurgh.netlify.app/)
+
+## Get Started
+
+From your command line, first clone this repo:
 
 ```bash
-npx create-next-app --example with-tailwindcss with-tailwindcss-app
-# or
-yarn create next-app --example with-tailwindcss with-tailwindcss-app
-```
+# Clone this repository
+$ git clone https://github.com/no1atall/simurgh
 
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+# Go into the repository
+$ cd simurgh
+
+# Remove current origin repository
+$ git remote remove origin
+
+```
+Then you can install the dependencies using NPM:
+
+Using NPM:
+
+```bash
+# Install dependencies
+$ npm install
+
+# Start development server
+$ npm start
+```
+You should now have a development server running in your default browser.
