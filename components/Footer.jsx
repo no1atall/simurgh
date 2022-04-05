@@ -1,5 +1,7 @@
 import Link from "next/link";
 
+const Year = new Date().getFullYear();
+
 const Footer = () => {
   return (
     <section id="Location" className=" flex flex-col my-20 ">
@@ -55,8 +57,10 @@ const Footer = () => {
         </div>
       </div>
       <div className="flex flex-row w-full text-xl px-4">
-        <div className="w-1/2 text-lg sm:text-xl ">
-          <p>Copyright ©2021 Created by Ian Vicherek</p>
+        <div className="w-1/2 text-sm sm:text-xl ">
+          <p>Copyright &copy;{Year} Simurgh Restaurant</p>
+          <p>All Rights Reserved</p>
+          <p>Created by Ian Vicherek</p>
         </div>
         <div className="mx-auto cursor-pointer">
           <Link href="https://www.facebook.com/Simurgh-restaurant-122786131928666/">
