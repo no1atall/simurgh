@@ -2,31 +2,31 @@ const Kebabs = () => {
   const kebabs = [
     {
       name: "Koobideh",
-      price: "14.99",
+      price: "15.99",
       id: 1,
       description: "Two char broiled skewers of ground beef",
     },
     {
       name: "Chicken leg/breast",
-      price: "15.99/$16.99",
+      price: "17.99/$18.99",
       id: 2,
       description: "Marinated char broiled chicken leg/breast",
     },
     {
       name: "Kebab Barg",
-      price: "22.99",
+      price: "24.99",
       id: 3,
       description: "Marinated char broiled veal",
     },
     {
       name: "Keban Soltani",
-      price: "27.99",
+      price: "29.99",
       id: 4,
       description: "One skewer of Koobideh and one skewer of Barg",
     },
     {
       name: "Kebab Torsh",
-      price: "27.99",
+      price: "29.99",
       id: 5,
       description:
         "Marinated beef in a sauce made of walnuts, pomegranate and crushed garlic",
@@ -39,19 +39,19 @@ const Kebabs = () => {
     },
     {
       name: "Kebab Vaziri",
-      price: "21.99",
+      price: "23.99",
       id: 7,
       description: "One skewer of chicken leg and one skewer of Koobideh",
     },
     {
       name: "Kebab Salari",
-      price: "22.99",
+      price: "24.99",
       id: 8,
       description: "One skewer of chicken breast and one skewer of Koobideh",
     },
     {
       name: "Kebab Bakhtiari",
-      price: "31.99",
+      price: "33.99",
       id: 9,
       description: "One skewer of chicken breast and one skewer of Barg",
     },

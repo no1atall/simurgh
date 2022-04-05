@@ -2,21 +2,21 @@ const Salads = () => {
   const salads = [
     {
       name: "Garden Salad",
-      price: "4.99",
+      price: "6.99",
       id: 1,
       description:
         "Mix of fresh lettuce, cucumber, tomato, and slided red onions",
     },
     {
       name: "Shirazi Salad",
-      price: "6.99",
+      price: "7.99",
       id: 2,
       description:
         "Finely chopped cucumber, tomato, red onion, and mint mixed with our special blend of lemon juice and viniger",
     },
     {
       name: "Greek Salad",
-      price: "7.99",
+      price: "8.99",
       id: 3,
       description:
         "Mix of fresh lettuce, cucumber, tomato, red onions, topped with sliced black olives, feta cheese and Greek dressing",
@@ -30,7 +30,7 @@ const Salads = () => {
     },
     {
       name: "House Special Salad",
-      price: "11.99",
+      price: "12.99",
       id: 5,
       description:
         "Our special blend of fresh lettuce, cucumber, tomato, red onions, topped with sliced black olives, feta cheese mixed through with our special tangy house sauce",

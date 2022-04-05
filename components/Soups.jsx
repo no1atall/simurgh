@@ -2,14 +2,14 @@ const Soups = () => {
   const soups = [
     {
       name: "Soup Of The Day",
-      price: "5.99",
+      price: "6.99",
       id: 1,
       description:
         "Traditional Persian soup made in house from fresh ingredients",
     },
     {
       name: "Bean Soup",
-      price: "4.99",
+      price: "5.99",
       id: 2,
       description: "Our staple comforting bean soup",
     },

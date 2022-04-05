@@ -28,7 +28,7 @@ const Drinks = () => {
     {
       name: "Turkish Coffee",
       id: "6",
-      price: "3.99",
+      price: "4.99",
       description: "Our home brewed Turkish coffee",
     },
   ];

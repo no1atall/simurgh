@@ -6,22 +6,17 @@ const Wings = () => {
       id: "1",
       description: "8 marinated BBQ home style wings",
     },
-    {
-      name: "Medium",
-      price: "13.99",
-      id: "2",
-      description: "10 marinated BBQ home style wings",
-    },
+    
     {
       name: "Large",
-      price: "15.99",
-      id: "3",
+      price: "16.99",
+      id: "2",
       description: "12 marinated BBQ home style wings",
     },
     {
       name: "Combo",
-      price: "14.99",
-      id: "4",
+      price: "16.99",
+      id: "3",
       description: "8 marinated BBQ home style wings with a bottle of beer",
     },
   ];

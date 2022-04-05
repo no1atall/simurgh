@@ -2,19 +2,19 @@ const Sides = () => {
   const sides = [
     {
       name: "French Fries",
-      price: "4.99",
+      price: "5.99",
       id: "1",
       description: "Regular French fries",
     },
     {
       name: "Crispy Fries",
-      price: "5.99",
+      price: "6.99",
       id: "2",
       description: "Crispy French fries.",
     },
     {
       name: "Koobideh",
-      price: "4.99",
+      price: "5.99",
       id: "3",
       description:
         "An extra skewer of koobideh available with the purchase of a full meal",
@@ -33,7 +33,7 @@ const Sides = () => {
     },
     {
       name: "Ghormeh Sabzi",
-      price: "10.99",
+      price: "12.99",
       id: "6",
       description: "Our home made Persian vegitable stew",
     },

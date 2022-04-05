@@ -2,32 +2,32 @@ const Starters = () => {
   const starters = [
     {
       name: "Mast Khiar",
-      price: "4.99",
+      price: "5.99",
       id: 1,
       description: "Diced cucumber with fresh home style yogurt",
     },
     {
       name: "Mast Moosir",
-      price: "4.99",
+      price: "5.99",
       id: 2,
       description: "Home style yogurt sprinkled with shallots",
     },
     {
       name: "Kashkeh Bademjan",
-      price: "9.99",
+      price: "10.99",
       id: 3,
       description:
         "Mashed and fried eggplant topped with fried onions, mint, and garlic",
     },
     {
       name: "Khaviar Bademjan",
-      price: "8.99",
+      price: "9.99",
       id: 4,
       description: "Mashed and fried BBQ eggplant and tomato",
     },
     {
       name: "Zeytoon Parvarde",
-      price: "7.99",
+      price: "8.99",
       id: 5,
       description: "Marinated green olives in pomegranate and walnut paste",
     },
